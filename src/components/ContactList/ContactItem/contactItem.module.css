@@ -1,0 +1,21 @@
+.contactsItem {
+  /* list-style: none; */
+  padding: 0;
+  position: relative;
+  border-bottom: 2px dotted;
+  border-color: aqua;
+}
+
+.btnItem {
+  width: 25px;
+  height: 25px;
+  color: #ffffff;
+  border-radius: 50%;
+  background: rgb(247, 163, 163);
+  border-color: #ffffff;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}

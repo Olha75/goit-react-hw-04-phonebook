@@ -1,0 +1,50 @@
+.forma {
+  background-color: rgb(252, 253, 248);
+  display: block;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.labelForm {
+  display: block;
+  color: rgb(7, 146, 146);
+  margin-bottom: 2px;
+  font-size: 25px;
+}
+
+.inpForm {
+  display: block;
+  width: 220px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid aqua;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+input::placeholder {
+  color: gray;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.btnForm {
+  display: block;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: rgb(7, 146, 146);
+  font-weight: bold;
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.btnForm:focus {
+  background-color: aquamarine;
+  color: rgb(7, 12, 96);
+  font-weight: bold;
+}

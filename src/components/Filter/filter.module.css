@@ -1,0 +1,37 @@
+.conteinerFiltr {
+  margin: 10px;
+  background-color: blanchedalmond;
+  padding: 10px 10px 1px;
+  border-radius: 20px;
+  /* background: linear-gradient(to bottom, #ffffff, #e0e0e0); */
+  background-color: #f0f0f0;
+  box-shadow: 0 0 10px rgba(0, 128, 128, 0.5);
+  outline: 1px solid #00cccc;
+  background-color: #f0f0f0;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1);
+  /* background-color: #f0f0f0;
+  mix-blend-mode: multiply; */
+}
+
+.inpFiltr {
+  display: block;
+  width: 220px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid aqua;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+
+input::placeholder {
+  color: gray;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.labelForm {
+  display: block;
+  color: rgb(7, 146, 146);
+  font-size: 20px;
+}
